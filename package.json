@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest"
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests"
   },
   "devDependencies": {
     "@shelf/jest-mongodb": "^2.0.3",
