@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test:clear": "jest --clearCache",
     "test": "jest --passWithNoTests --watch",
     "test:staged": "jest --passWithNoTests"
   },
